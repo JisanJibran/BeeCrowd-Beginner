@@ -4,14 +4,14 @@ int main() {
     int H,Z,L;
     scanf("%d%d%d", &H,&Z,&L);
     if(H > Z && H < L){
-        printf("Huguinho\n");
+        printf("huguinho\n");
     }else if(H < Z && H > L){
-        printf("Huguinho\n");
+        printf("huguinho\n");
     }else if(Z > H && Z < L){
-        printf("Zezinho\n");
+        printf("zezinho\n");
     }else if(Z < H && Z > L){
-        printf("Zezinho\n");
+        printf("zezinho\n");
     }else{
-        printf("Luisinho\n");
+        printf("luisinho\n");
     }
 }
